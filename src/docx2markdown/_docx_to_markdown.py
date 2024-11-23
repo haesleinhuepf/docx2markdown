@@ -3,7 +3,7 @@ import os
 from lxml import etree
 from pathlib import Path
 
-def convert(docx_file, output_md):
+def docx_to_markdown(docx_file, output_md):
     """Convert a .docx file to a Markdown file and a subfolder of images."""
 
     folder = str(Path(output_md).parent)
@@ -113,7 +113,7 @@ def get_list_level(paragraph):
         ilvl = numPr.find(".//w:ilvl", namespaces=p.nsmap)
         if ilvl is not None:
             return int(ilvl.get("{http://schemas.openxmlformats.org/wordprocessingml/2006/main}val"))
-    return None
+    return 0
 
 def get_bullet_point_prefix(paragraph):
     """Determine the Markdown prefix for a bullet point based on its indentation level."""
