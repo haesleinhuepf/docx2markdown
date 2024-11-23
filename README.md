@@ -1,6 +1,6 @@
 # docx2md
 
-Convert _simple_ `.docx` files to markdown.
+Convert _simple_ `.docx` files to markdown and back.
 
 ## Usage: Python
 
