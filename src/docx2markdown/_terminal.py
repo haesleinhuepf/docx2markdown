@@ -11,4 +11,4 @@ def command_line_interface():
     elif filename1.lower().endswith(".md") and filename2.lower().endswith(".docx"):
         markdown_to_docx(filename1, filename2)
     else:
-        print("Conversion not supported. Please provide a .md and a .docx file, or a .docx and a .md file.)
+        print("Conversion not supported. Please provide a .md and a .docx file, or a .docx and a .md file.")
