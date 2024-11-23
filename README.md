@@ -7,7 +7,11 @@ Convert _simple_ `.docx` files to markdown.
 ```
 import docx2markdown 
 
-docx2markdown.convert("test-text.docx", "test-text.md")
+# .docx -> .md
+docx2markdown.docx_to_markdown("test-text.docx", "test-text-1.md")
+
+# .md -> .docx
+docx2markdown.markdown_to_docx("test-text-1.md", "test-text-2.docx")
 ```
 
 ## Usage: Terminal
@@ -15,6 +19,11 @@ docx2markdown.convert("test-text.docx", "test-text.md")
 ```
 docx2markdown test-text.docx test-text.md
 ```
+OR:
+```
+docx2markdown test-text.md test-text.docx
+```
+
 
 ## Installation
 
