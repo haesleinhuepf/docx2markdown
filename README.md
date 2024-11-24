@@ -35,6 +35,11 @@ pip install docx2markdown
 
 Feedback and contributions are welcome! Just open an issue and let's discuss before you send a pull request. 
 
+## Alternatives
+
+* [pypandoc](https://github.com/JessicaTegner/pypandoc)
+
+
 ## Acknowledgements
 
 We acknowledge the financial support by the Federal Ministry of Education and Research of Germany and by Sächsische Staatsministerium für Wissenschaft, Kultur und Tourismus in the programme Center of Excellence for AI-research „Center for Scalable Data Analytics and Artificial Intelligence Dresden/Leipzig", project identification number: ScaDS.AI
