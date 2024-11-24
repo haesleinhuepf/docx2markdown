@@ -1,4 +1,4 @@
-# docx2md
+# docx2markdown
 
 Convert _simple_ `.docx` files to markdown and back.
 
